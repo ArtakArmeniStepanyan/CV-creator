@@ -1,0 +1,161 @@
+
+
+.app{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.makeOpacity{
+    opacity: 0.6;
+}
+
+
+.main{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.loader{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -100px; 
+}
+
+/* content */
+.content{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.contentLeft{
+    background: #EAEAEA;
+    color: #2D344A;
+    padding: 30px;
+}
+
+.contentRight{
+    color: #2D344A;
+    padding: 0 30px 30px 30px;
+}
+
+
+
+/* personal */
+.personalBlock{
+    padding: 30px;
+    background: #505374;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+}
+
+.imageName{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 150px;
+    max-width: 160px;
+}
+
+.name{
+    margin-left: 20px;
+}
+
+.personalP{
+    font-size: small;
+    margin-bottom: 3px;
+}
+
+.personalInfo{
+    text-align: right;
+}
+
+
+/* BLOCKS */
+
+    /* left side */
+        .leftBlocksHeader{
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .leftBlockContent{
+            margin-bottom: 30px;
+        }
+
+        /* single part preview */
+            .previewSinglelLeftDiv{
+                margin-bottom: 6px;
+                hyphens: auto;
+            }
+
+            .previewProgressDiv{
+                display: flex;
+                align-items: center;
+            }
+
+            .previewProgressTitle{
+                min-width: 80px;
+                max-width: 150px;
+            }
+            .previewProgressTitle p{
+                margin: 0;
+            }
+
+            .previewProgressLevel{
+                margin-left: 5px;
+            }
+
+
+    /* right side */
+        .breakPoint{
+            page-break-before:always;
+        }
+
+        .rightBlocks{
+            margin-top: 30px;
+            border-bottom: 1px dashed #2D344A;
+        }
+
+        .rightBlocksHeader{
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .rightBlockContent{
+            margin-bottom: 30px;
+        }
+
+
+
+        /* single part preview */
+            .previewSinglelRightDiv{
+                margin-bottom: 8px;
+                hyphens: auto;
+            }
+
+            .previewDateP{
+                font-size: 12px;
+                margin-bottom: 3px;
+                font-weight: 500;
+            }
+            .previewContentP{
+                font-weight: 500;
+                margin-bottom: 4px;
+            }
+            .previewTitleP{
+                font-size: 14px;
+            }

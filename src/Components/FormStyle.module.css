@@ -1,0 +1,58 @@
+.errorInput{
+    border: 2px solid #f88591!important;
+}
+
+.educationsDiv{
+    border-radius: 3px;
+    background-color: rgb(247, 244, 244);
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.singleFormDiv{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid black;
+}
+
+.singleFormRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formTitleP{
+    margin: 0;
+    font-weight: 500;   
+    font-size: 14px;
+}
+.formContentP{
+    margin: 0;
+    font-size: 12px;
+}
+.formLocationP{
+    margin: 0;
+    font-size: 12px;
+}
+
+.formIcon:hover{
+    cursor: pointer;
+}
+
+.rateDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.downloadBtnDiv{
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+.errorMessage{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #EB4C42;
+}
